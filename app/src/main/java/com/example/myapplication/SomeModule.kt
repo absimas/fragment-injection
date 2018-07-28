@@ -4,9 +4,9 @@ import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
 @Module
-interface BuilderModule {
+interface SomeModule {
 
     @ContributesAndroidInjector
-    fun bindMainActivity(): MainActivity
+    fun bindSomeFragment(): SomeFragment
 
 }
